@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(255, 255, 255);
+    background-image: url('./Photos/squares.gif');
+    background-size: 100vw 100vh;
+    color:rgb(118, 38, 223);
+}
+main{
+    vertical-align: top;
+    padding: 1rem;
+
+}
+.card{
+    display: inline-block;
+    min-height: 79vh;
+    vertical-align: top;
+}
+.card-img-top{
+    object-fit: cover;
+    height: 17.9rem; 
+    width: 17.9rem;
+}
+#cart {
+    width: 80%;
+    background-color: #00000088;
+}
+input.form-control{
+    max-width: 350px;
+}
+footer{
+    background-color: black;
+    color:white
+}
+.card{
+    background-color:#00000088;
+    color: white; 
+}
