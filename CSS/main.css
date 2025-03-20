@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  background: #FFF;
+  /* background: #FFF; */
 }
 /* ============= Animation background ========= */
 .background {
@@ -172,4 +172,22 @@ nav ul li:hover{
     transform: scale(20) rotate(960deg) translate(-50%, -50%);
     opacity: 0;
   }
+}
+.navbar.navbar-expand-lg.bg-body-tertiary{
+
+  background-color: none !important;
+
+}
+.navbar-toggler{
+  background-color: none !important;
+}
+.nav-link {
+  color:white;
+}
+body{
+  --bs-emphasis-color-rgb:white;
+}
+main{
+  padding-top: 4em;
+  /* margin-top: 14em; Navbar!!!  */
 }
